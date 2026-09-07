@@ -7,7 +7,7 @@ million subscribers. The business is going through a risky shift: its
 profitable satellite customers are dropping by about 5% every year, while
 its streaming service, STADIOstream, is growing fast but still losing
 money. This means every streaming subscriber the company already has is
-very valuable — losing one wastes the money it took to sign them up in
+very valuable; losing one wastes the money it took to sign them up in
 the first place.
 
 This problem affects several groups inside STADIOchoice: the retention
@@ -17,7 +17,7 @@ marketing budget get wasted on customers who were never going to leave;
 and company leadership, who have publicly committed to winning through
 retention as their top strategic priority.
 
-Right now, STADIOchoice only reacts to churn — it does not predict it.
+Right now, STADIOchoice only reacts to churn; it does not predict it.
 Streaming churn has climbed from 6.5% to 9.2% every month in just two
 years, and spikes hard right after a big sports event or show ends. A
 data-driven churn prediction model would let STADIOchoice see which
@@ -26,7 +26,7 @@ offers only to customers actually likely to leave, save money currently
 wasted on discounting customers who would have stayed anyway, and catch
 "quiet leavers" who slowly stop watching but never contact support.
 
-This is not a small or side issue for STADIOchoice — it is central to
+This is not a small or side issue for STADIOchoice; it is central to
 their own stated 2030 strategy, which puts "win the streaming war on
 retention, not just sign-ups" as priority number one. STADIOchoice
 already collects three years of viewing data and five years of billing
@@ -121,7 +121,7 @@ This repository is organised as follows:
 ### Issues
 Currently, there are no active issues. Since this is the proposal stage
 (SS1), no real client data has been received yet, and no technical work
-(data cleaning, modelling) has started — so no problems have arisen to
+(data cleaning, modelling) has started; so no problems have arisen to
 log at this point. This section will be updated as issues emerge during
 SS2 and SS3.
 
