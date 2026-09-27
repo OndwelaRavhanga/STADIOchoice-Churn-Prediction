@@ -124,7 +124,7 @@ This repository is organised as follows:
 ### Issues
 Currently, there are no active issues. Since this is the proposal stage
 (SS1), no real client data has been received yet, and no technical work
-(data cleaning, modelling) has started — so no problems have arisen to
+(data cleaning, modelling) has started; so no problems have arisen to
 log at this point. This section will be updated as issues emerge during
 SS2 and SS3.
 
