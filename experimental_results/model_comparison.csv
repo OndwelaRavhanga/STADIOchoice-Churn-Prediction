@@ -1,0 +1,6 @@
+Metric,Model 1 (Logistic Regression),Model 2 (Random Forest),Difference (M2 - M1)
+accuracy,0.617,0.8648,0.2478
+precision,0.1441,0.289,0.1449
+recall,0.5951,0.2676,-0.3275
+f1_score,0.232,0.2779,0.0459
+roc_auc,0.6356,0.6697,0.0341

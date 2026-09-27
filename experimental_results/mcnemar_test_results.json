@@ -1,0 +1,7 @@
+{
+  "mcnemar_n10_model1_right_model2_wrong": 104,
+  "mcnemar_n01_model1_wrong_model2_right": 828,
+  "mcnemar_statistic": 560.868,
+  "mcnemar_p_value": 0.0,
+  "significant_at_0.05": true
+}
