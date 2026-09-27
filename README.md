@@ -69,8 +69,8 @@ This repository is organised as follows:
   hyperparameters).
 - **`experimental_results/`** — Output of model evaluations: metrics,
   confusion matrices, comparison results.
-- **`scripts/`** — Preprocessing, feature engineering, and model
-  training scripts (see Part B below), plus:
+- **`scripts/`** — Preprocessing, feature engineering, model training,
+  and model evaluation scripts (see Parts B and C below), plus:
   - **`scripts/statistical_helpers/`** — Reusable scripts for
     statistical calculations and model comparisons.
   - **`scripts/visualisations/`** — Scripts used to generate charts
@@ -174,6 +174,19 @@ their own linked files:
 - [`Model2.md`](./Model2.md) — Random Forest ensemble model
   (`scripts/model2_random_forest.py`)
 
+## Part C: Model Performance and Comparison
+
+Full performance results and statistical comparison of both models
+are documented in their own linked files:
+
+- [`Model1Performance.md`](./Model1Performance.md) — Logistic
+  Regression results (`scripts/model1_performance.py`)
+- [`Model2Performance.md`](./Model2Performance.md) — Random Forest
+  results (`scripts/model2_performance.py`)
+- [`Comparison.md`](./Comparison.md) — side-by-side metrics and a
+  McNemar's statistical significance test between both models
+  (`scripts/model_comparison.py`)
+
 To run the full pipeline from scratch:
 ```
 pip install -r requirements.txt
@@ -181,4 +194,7 @@ python scripts/preprocessing.py
 python scripts/feature_engineering.py
 python scripts/model1_logistic_regression.py
 python scripts/model2_random_forest.py
+python scripts/model1_performance.py
+python scripts/model2_performance.py
+python scripts/model_comparison.py
 ```
