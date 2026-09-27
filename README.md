@@ -187,6 +187,13 @@ are documented in their own linked files:
   McNemar's statistical significance test between both models
   (`scripts/model_comparison.py`)
 
+## Part D: Recommendations Report
+
+See [`Recommendations_Report.pdf`](./Recommendations_Report.pdf) for a
+formal report addressing which model is recommended, how it can be
+improved, how it will need to be adapted for STADIOchoice's real data,
+and how these results align with the related literature in Part A.
+
 To run the full pipeline from scratch:
 ```
 pip install -r requirements.txt
