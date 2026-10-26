@@ -1,0 +1,4 @@
+feature set,LR ROC-AUC,LR PR-AUC,RF ROC-AUC,RF PR-AUC
+A. final features (leakage-controlled),0.693,0.317,0.667,0.279
+B. A + search columns,0.729,0.356,0.71,0.323
+C. A + engagement + tenure_months (LEAKY),0.999,0.998,0.998,0.996

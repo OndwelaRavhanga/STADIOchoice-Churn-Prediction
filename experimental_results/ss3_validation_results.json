@@ -1,0 +1,203 @@
+{
+  "final_model": "Logistic Regression (Model 1)",
+  "selection_rule": "Random Forest replaces Logistic Regression only if the 95% paired-bootstrap CI of the validation PR-AUC difference lies above zero",
+  "validation_difference_RF_minus_LR": {
+    "pr_auc": {
+      "estimate": -0.0383,
+      "ci95": [
+        -0.0582,
+        -0.0185
+      ]
+    },
+    "roc_auc": {
+      "estimate": -0.0261,
+      "ci95": [
+        -0.037,
+        -0.0154
+      ]
+    }
+  },
+  "contact_fraction": 0.2,
+  "decision_thresholds_from_validation": {
+    "Logistic Regression (Model 1)": 0.59856,
+    "Random Forest (Model 2)": 0.54992
+  },
+  "bootstrap_resamples": 1000,
+  "seed": 42,
+  "validation": {
+    "Logistic Regression (Model 1)": {
+      "roc_auc": {
+        "estimate": 0.6927,
+        "ci95_low": 0.6719,
+        "ci95_high": 0.7117
+      },
+      "pr_auc": {
+        "estimate": 0.3172,
+        "ci95_low": 0.2873,
+        "ci95_high": 0.3502
+      },
+      "precision": {
+        "estimate": 0.3218,
+        "ci95_low": 0.2933,
+        "ci95_high": 0.3506
+      },
+      "recall": {
+        "estimate": 0.3943,
+        "ci95_low": 0.3612,
+        "ci95_high": 0.4249
+      },
+      "f1": {
+        "estimate": 0.3544,
+        "ci95_low": 0.3252,
+        "ci95_high": 0.3811
+      },
+      "lift": {
+        "estimate": 1.9703,
+        "ci95_low": 1.8178,
+        "ci95_high": 2.1126
+      },
+      "accuracy": {
+        "estimate": 0.7653,
+        "ci95_low": 0.7532,
+        "ci95_high": 0.776
+      },
+      "confusion": {
+        "tp": 362,
+        "fp": 763,
+        "fn": 556,
+        "tn": 3940
+      }
+    },
+    "Random Forest (Model 2)": {
+      "roc_auc": {
+        "estimate": 0.6665,
+        "ci95_low": 0.646,
+        "ci95_high": 0.6849
+      },
+      "pr_auc": {
+        "estimate": 0.2789,
+        "ci95_low": 0.2554,
+        "ci95_high": 0.3085
+      },
+      "precision": {
+        "estimate": 0.3076,
+        "ci95_low": 0.2822,
+        "ci95_high": 0.334
+      },
+      "recall": {
+        "estimate": 0.3769,
+        "ci95_low": 0.3439,
+        "ci95_high": 0.4077
+      },
+      "f1": {
+        "estimate": 0.3387,
+        "ci95_low": 0.3125,
+        "ci95_high": 0.3642
+      },
+      "lift": {
+        "estimate": 1.8832,
+        "ci95_low": 1.7446,
+        "ci95_high": 2.0162
+      },
+      "accuracy": {
+        "estimate": 0.7597,
+        "ci95_low": 0.7481,
+        "ci95_high": 0.7703
+      },
+      "confusion": {
+        "tp": 346,
+        "fp": 779,
+        "fn": 572,
+        "tn": 3924
+      }
+    }
+  },
+  "test": {
+    "Logistic Regression (Model 1)": {
+      "roc_auc": {
+        "estimate": 0.6707,
+        "ci95_low": 0.6519,
+        "ci95_high": 0.69
+      },
+      "pr_auc": {
+        "estimate": 0.286,
+        "ci95_low": 0.2639,
+        "ci95_high": 0.3151
+      },
+      "precision": {
+        "estimate": 0.3136,
+        "ci95_low": 0.2882,
+        "ci95_high": 0.3408
+      },
+      "recall": {
+        "estimate": 0.3922,
+        "ci95_low": 0.3617,
+        "ci95_high": 0.4249
+      },
+      "f1": {
+        "estimate": 0.3485,
+        "ci95_low": 0.3237,
+        "ci95_high": 0.3746
+      },
+      "lift": {
+        "estimate": 1.9201,
+        "ci95_low": 1.7887,
+        "ci95_high": 2.061
+      },
+      "accuracy": {
+        "estimate": 0.7605,
+        "ci95_low": 0.7492,
+        "ci95_high": 0.7721
+      },
+      "confusion": {
+        "tp": 360,
+        "fp": 788,
+        "fn": 558,
+        "tn": 3915
+      }
+    },
+    "Random Forest (Model 2)": {
+      "roc_auc": {
+        "estimate": 0.6486,
+        "ci95_low": 0.6295,
+        "ci95_high": 0.6682
+      },
+      "pr_auc": {
+        "estimate": 0.2648,
+        "ci95_low": 0.2443,
+        "ci95_high": 0.2907
+      },
+      "precision": {
+        "estimate": 0.2916,
+        "ci95_low": 0.2649,
+        "ci95_high": 0.3196
+      },
+      "recall": {
+        "estimate": 0.3453,
+        "ci95_low": 0.314,
+        "ci95_high": 0.3757
+      },
+      "f1": {
+        "estimate": 0.3162,
+        "ci95_low": 0.291,
+        "ci95_high": 0.3419
+      },
+      "lift": {
+        "estimate": 1.7857,
+        "ci95_low": 1.6424,
+        "ci95_high": 1.9325
+      },
+      "accuracy": {
+        "estimate": 0.7561,
+        "ci95_low": 0.7444,
+        "ci95_high": 0.7675
+      },
+      "confusion": {
+        "tp": 317,
+        "fp": 770,
+        "fn": 601,
+        "tn": 3933
+      }
+    }
+  }
+}

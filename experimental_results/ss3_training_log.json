@@ -1,0 +1,77 @@
+{
+  "run_timestamp_utc": "2026-10-23 08:57:22",
+  "seed": 42,
+  "index_date": "2025-09-01",
+  "library_versions": {
+    "python": "3.12.3",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "scikit_learn": "1.8.0"
+  },
+  "split": {
+    "train": 16862,
+    "validation": 5621,
+    "test": 5621,
+    "stratified_on": "churned"
+  },
+  "features_used": {
+    "categorical": [
+      "plan_type",
+      "payment_status",
+      "upgrade_downgrade_history",
+      "device_type"
+    ],
+    "numeric": [
+      "monthly_price",
+      "payment_failures_last_6_months",
+      "tenure_at_index_months",
+      "months_into_window"
+    ],
+    "binary": [
+      "free_trial_flag",
+      "joined_in_window"
+    ]
+  },
+  "models": {
+    "LR": {
+      "model": "Logistic Regression (Model 1)",
+      "hyperparameters": {
+        "C": 1.0,
+        "max_iter": 1000,
+        "class_weight": "balanced",
+        "random_state": 42
+      },
+      "fit_seconds": 0.05,
+      "n_training_rows": 16862,
+      "n_model_input_columns": 22,
+      "training_roc_auc": 0.6846,
+      "training_pr_auc": 0.313,
+      "cv_mean_roc_auc": 0.682,
+      "cv_mean_pr_auc": 0.312,
+      "solver_iterations": 17,
+      "converged": true
+    },
+    "RF": {
+      "model": "Random Forest (Model 2)",
+      "hyperparameters": {
+        "n_estimators": 300,
+        "max_depth": 10,
+        "criterion": "gini",
+        "class_weight": "balanced",
+        "random_state": 42,
+        "n_jobs": -1
+      },
+      "fit_seconds": 2.29,
+      "n_training_rows": 16862,
+      "n_model_input_columns": 22,
+      "training_roc_auc": 0.7909,
+      "training_pr_auc": 0.52,
+      "cv_mean_roc_auc": 0.6581,
+      "cv_mean_pr_auc": 0.2831
+    }
+  },
+  "model_files": {
+    "LR": "models/ss3_logistic_regression.joblib",
+    "RF": "models/ss3_random_forest.joblib"
+  }
+}

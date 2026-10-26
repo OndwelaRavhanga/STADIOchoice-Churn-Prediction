@@ -1,0 +1,8 @@
+metric,Logistic Regression (Model 1),Random Forest (Model 2),no-skill baseline
+ROC-AUC (ranking quality),"0.671 [0.652, 0.690]","0.649 [0.630, 0.668]",0.500
+PR-AUC (ranking quality),"0.286 [0.264, 0.315]","0.265 [0.244, 0.291]",0.163
+"Precision, top 20% contacted","0.314 [0.288, 0.341]","0.292 [0.265, 0.320]",0.163
+"Recall (share of churners caught), top 20% contacted","0.392 [0.362, 0.425]","0.345 [0.314, 0.376]",0.200
+"F1-score, top 20% contacted","0.348 [0.324, 0.375]","0.316 [0.291, 0.342]",0.180
+"Lift vs random targeting, top 20% contacted","1.920 [1.789, 2.061]","1.786 [1.642, 1.932]",1.000
+"Accuracy, top 20% contacted (misleading)","0.761 [0.749, 0.772]","0.756 [0.744, 0.767]",0.837

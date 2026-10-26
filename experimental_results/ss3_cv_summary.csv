@@ -1,0 +1,11 @@
+model,metric,training folds (mean),held-out folds (mean),held-out folds (sd)
+Logistic Regression (Model 1),roc_auc,0.685,0.682,0.015
+Logistic Regression (Model 1),pr_auc,0.313,0.312,0.021
+Logistic Regression (Model 1),precision,0.265,0.264,0.007
+Logistic Regression (Model 1),recall,0.587,0.586,0.034
+Logistic Regression (Model 1),f1,0.365,0.364,0.012
+Random Forest (Model 2),roc_auc,0.806,0.658,0.011
+Random Forest (Model 2),pr_auc,0.548,0.283,0.013
+Random Forest (Model 2),precision,0.386,0.28,0.008
+Random Forest (Model 2),recall,0.644,0.46,0.029
+Random Forest (Model 2),f1,0.482,0.348,0.014
