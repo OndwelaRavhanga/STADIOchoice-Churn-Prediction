@@ -213,3 +213,9 @@ python scripts/model_comparison.py
 
 - [`SS3_PartB.ipynb`](./SS3_PartB.ipynb): the notebook (dataset loading, preprocessing, training, validation, visualisation) that applies the SS2 models to the STADIOchoice client data
 - [`SS3_PartB_README.md`](./SS3_PartB_README.md): what the notebook does, how to run it, key decisions, results and limitations
+
+
+
+### Part C: Video presentation
+
+[Watch the video presentation on YouTube](https://youtu.be/eH_MENww75Y)
