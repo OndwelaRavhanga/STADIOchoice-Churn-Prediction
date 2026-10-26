@@ -205,3 +205,11 @@ python scripts/model1_performance.py
 python scripts/model2_performance.py
 python scripts/model_comparison.py
 ```
+
+
+## SS3: Applying the final method to the client data
+
+### Part B: Notebook and README
+
+- [`SS3_PartB.ipynb`](./SS3_PartB.ipynb): the notebook (dataset loading, preprocessing, training, validation, visualisation) that applies the SS2 models to the STADIOchoice client data
+- [`SS3_PartB_README.md`](./SS3_PartB_README.md): what the notebook does, how to run it, key decisions, results and limitations
