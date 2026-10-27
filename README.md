@@ -60,20 +60,20 @@ STADIOchoice's own data.
 
 This repository is organised as follows:
 
-- **`datasets/`** — Raw and cleaned datasets used for this project,
+- **`datasets/`** - Raw and cleaned datasets used for this project,
   including the public churn dataset used as a proof of concept.
-- **`models/`** — Saved/trained model files produced during the
+- **`models/`** - Saved/trained model files produced during the
   modelling stage.
-- **`experimental_setup/`** — Notebooks and scripts describing how
+- **`experimental_setup/`** - Notebooks and scripts describing how
   experiments were configured (train/test splits, chosen algorithms,
   hyperparameters).
-- **`experimental_results/`** — Output of model evaluations: metrics,
+- **`experimental_results/`** - Output of model evaluations: metrics,
   confusion matrices, comparison results.
-- **`scripts/`** — Preprocessing, feature engineering, model training,
+- **`scripts/`** - Preprocessing, feature engineering, model training,
   and model evaluation scripts (see Parts B and C below), plus:
-  - **`scripts/statistical_helpers/`** — Reusable scripts for
+  - **`scripts/statistical_helpers/`** - Reusable scripts for
     statistical calculations and model comparisons.
-  - **`scripts/visualisations/`** — Scripts used to generate charts
+  - **`scripts/visualisations/`** - Scripts used to generate charts
     and graphs for analysis and reporting.
 
 ## RAAIDD Log
@@ -165,13 +165,13 @@ This project trains and compares two models on the PowerCo dataset
 described in Part A. Full details for each step are documented in
 their own linked files:
 
-- [`Preprocessing.md`](./Preprocessing.md) — how the raw data is
+- [`Preprocessing.md`](./Preprocessing.md) - how the raw data is
   cleaned (`scripts/preprocessing.py`)
-- [`FeatureEngineering.md`](./FeatureEngineering.md) — new features
+- [`FeatureEngineering.md`](./FeatureEngineering.md) - new features
   engineered from the cleaned data (`scripts/feature_engineering.py`)
-- [`Model1.md`](./Model1.md) — Logistic Regression baseline model
+- [`Model1.md`](./Model1.md) - Logistic Regression baseline model
   (`scripts/model1_logistic_regression.py`)
-- [`Model2.md`](./Model2.md) — Random Forest ensemble model
+- [`Model2.md`](./Model2.md) - Random Forest ensemble model
   (`scripts/model2_random_forest.py`)
 
 ## Part C: Model Performance and Comparison
@@ -179,11 +179,11 @@ their own linked files:
 Full performance results and statistical comparison of both models
 are documented in their own linked files:
 
-- [`Model1Performance.md`](./Model1Performance.md) — Logistic
+- [`Model1Performance.md`](./Model1Performance.md) - Logistic
   Regression results (`scripts/model1_performance.py`)
-- [`Model2Performance.md`](./Model2Performance.md) — Random Forest
+- [`Model2Performance.md`](./Model2Performance.md) - Random Forest
   results (`scripts/model2_performance.py`)
-- [`Comparison.md`](./Comparison.md) — side-by-side metrics and a
+- [`Comparison.md`](./Comparison.md) - side-by-side metrics and a
   McNemar's statistical significance test between both models
   (`scripts/model_comparison.py`)
 
